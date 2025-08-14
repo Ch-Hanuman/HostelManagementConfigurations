@@ -1,3 +1,6 @@
+spring:
+  profiles: dev
+
 server:
   port: 8080
 
@@ -5,8 +8,6 @@ hostel-service:
   message: "This is Production Hostel Service for Hostel Management System"
 
 spring:
-  profiles: dev
-
   datasource:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:pg_circle
