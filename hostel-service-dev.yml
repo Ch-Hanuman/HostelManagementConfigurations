@@ -4,9 +4,6 @@ spring:
 server:
   port: 8080
 
-hostel-service:
-  message: "This is Production Hostel Service for Hostel Management System"
-
 spring:
   datasource:
     driver-class-name: org.h2.Driver
